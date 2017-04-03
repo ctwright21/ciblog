@@ -2,7 +2,8 @@
 	<head>
 		<title>CI Blog</title>
 		<link rel="stylesheet" href="https://bootswatch.com/flatly/bootstrap.min.css">
-    <link rel="stylesheet" href="<?php echo base_url(); ?>/assets/css/style.css">
+    <link rel="stylesheet" href="<?php echo base_url(); ?>assets/css/style.css">
+    <script src="//cdn.ckeditor.com/4.6.2/standard/ckeditor.js"></script>
 	</head>
 	<body>
 
@@ -16,6 +17,11 @@
             <li><a href="<?php echo base_url(); ?>">Home</a></li>
             <li><a href="<?php echo base_url(); ?>about">About</a></li>
             <li><a href="<?php echo base_url(); ?>posts">Blog</a></li>
+            <li><a href="<?php echo base_url(); ?>categories">Categories</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="<?php echo base_url(); ?>posts/create">Create Post</a></li>
+            <li><a href="<?php echo base_url(); ?>categories/create">Create Category</a></li>
           </ul>
         </div>
       </div>
